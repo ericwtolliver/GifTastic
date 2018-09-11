@@ -1,4 +1,4 @@
-//Institute Variables
+// Variables
 var topics = [
   "dog",
   "cat",
@@ -9,21 +9,10 @@ var topics = [
   "bird",
   "ferret",
   "turtle",
-  "sugar glider",
-  "chinchilla",
-  "hedgehog",
-  "hermit crab",
-  "gerbil",
-  "pygmy goat",
-  "chicken",
-  "capybara",
-  "teacup pig",
-  "serval",
-  "salamander",
-  "frog"
+  "fish"
 ];
 
-//Functions
+//Function
 
 function renderButtons() {
   $(".buttons-view").empty();
@@ -118,5 +107,4 @@ function playGif() {
 $(document).on("click", ".topic", displayGifs);
 $(document).on("click", ".play", playGif);
 
-//Running Code
 renderButtons();
